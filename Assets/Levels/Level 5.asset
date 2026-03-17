@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 064d9e2eee260434c828097218064de9, type: 3}
+  m_Name: Level 5
+  m_EditorClassIdentifier: 
+  levelName: Level 3
+  levelNumber: 3
+  levelDescription: Build your first car!
+  levelThumbnail: {fileID: 0}
+  targetTimeSeconds: 180
+  enforcePartOrder: 1
+  recommendedSnapDistance: 0.5
+  enableMovingParts: 1
+  movingPartsSpeed: 1.4
+  enablePartCollision: 0
+  partsBouncOffGhosts: 0
+  ghostBounceDistance: 1
+  mazeMode: 0
+  freezeAllPartsOnPickup: 0
+  mazeCollisionDistance: 0.8
+  mazeCollisionSound: {fileID: 0}
+  handSphereDepth: 6.5
+  dragZPosition: -4
+  freezePartsOnPickup: 0
+  resetOnPartTouch: 0
+  instantSnapBack: 0
+  touchDetectionDistance: 1.6
+  carPrefab: {fileID: 0}
+  parts:
+  - partName: Part 1
+    partPrefab: {fileID: 8811425980388107544, guid: 54f14dcd292c5e646b45056860ebe673, type: 3}
+    startPosition: {x: 4, y: 0, z: -4}
+    startRotation: {x: 0, y: -50, z: 25}
+    targetPosition: {x: 0, y: 0, z: -4}
+    targetRotation: {x: 0, y: 0, z: 0}
+    placementOrder: 1
+    labelOffset: {x: 0, y: 0.5, z: 0}
+    labelFontSize: 1
+  - partName: Part 2
+    partPrefab: {fileID: 3186630776252664686, guid: 3f038b3c1bd2da24db54327fb15e6bb0, type: 3}
+    startPosition: {x: 3.5, y: 2, z: -4}
+    startRotation: {x: 0, y: -90, z: 0}
+    targetPosition: {x: 0, y: 0, z: -4}
+    targetRotation: {x: 0, y: -90, z: 0}
+    placementOrder: 2
+    labelOffset: {x: 0, y: 0.3, z: 0}
+    labelFontSize: 1
+  - partName: Part 3
+    partPrefab: {fileID: 7550011338260190556, guid: 06a23ba9c77bd5b41a5f008e16056a60, type: 3}
+    startPosition: {x: -2, y: 3, z: -4}
+    startRotation: {x: 0, y: -90, z: 0}
+    targetPosition: {x: 0, y: 0, z: -4}
+    targetRotation: {x: 0, y: -90, z: 0}
+    placementOrder: 3
+    labelOffset: {x: 0, y: 0, z: 0}
+    labelFontSize: 1
+  - partName: Part 4
+    partPrefab: {fileID: 488891541183517369, guid: 8c27ca2bd5efeb447933f23f0e68255a, type: 3}
+    startPosition: {x: -3, y: 1.5, z: -4}
+    startRotation: {x: 0, y: -90, z: 0}
+    targetPosition: {x: 0, y: 0, z: -4}
+    targetRotation: {x: 0, y: -90, z: 0}
+    placementOrder: 4
+    labelOffset: {x: 0, y: -0.2, z: 0}
+    labelFontSize: 1
+  - partName: Part 5
+    partPrefab: {fileID: 507682537946872888, guid: c0eef89fa5e21134890d50b654a9e403, type: 3}
+    startPosition: {x: -1, y: -1, z: -1.3}
+    startRotation: {x: 0, y: -90, z: 0}
+    targetPosition: {x: 0, y: 0, z: -4}
+    targetRotation: {x: 0, y: -90, z: 0}
+    placementOrder: 5
+    labelOffset: {x: 0, y: 0, z: 0.6}
+    labelFontSize: 1
+  - partName: Part 6
+    partPrefab: {fileID: 1142651694576135309, guid: f949f598abf867f4ab6a5f73b4ecdfda, type: 3}
+    startPosition: {x: -2, y: -2, z: -4}
+    startRotation: {x: 0, y: -90, z: 0}
+    targetPosition: {x: -0.8, y: 0.07, z: -4}
+    targetRotation: {x: 0, y: -90, z: 0}
+    placementOrder: 6
+    labelOffset: {x: 0, y: 0.6, z: 0}
+    labelFontSize: 1
+  - partName: Part 7
+    partPrefab: {fileID: 9193781559139383818, guid: 79c1cbe4c88a18e4a9930f5e4fe29e71, type: 3}
+    startPosition: {x: 2, y: -2, z: -4}
+    startRotation: {x: 0, y: -90, z: 0}
+    targetPosition: {x: 0.8, y: 0.07, z: -4}
+    targetRotation: {x: 0, y: -90, z: 0}
+    placementOrder: 7
+    labelOffset: {x: 0, y: 0.6, z: 0}
+    labelFontSize: 1
+  - partName: Part 8
+    partPrefab: {fileID: 4851494757437448287, guid: bca4f9d0cf2677844a9fc1d9aceac444, type: 3}
+    startPosition: {x: 8, y: -2, z: -5.5}
+    startRotation: {x: 0, y: -90, z: 0}
+    targetPosition: {x: 0, y: 0, z: -4}
+    targetRotation: {x: 0, y: -90, z: 0}
+    placementOrder: 8
+    labelOffset: {x: 0, y: -0.1, z: 1.5}
+    labelFontSize: 1
+  ghostColor: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 0.3}
+  highlightColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  correctPlacementColor: {r: 0, g: 1, b: 0, a: 1}
+  levelMusic: {fileID: 0}
+  snapSound: {fileID: 8300000, guid: 1c16255fcb3883443a8c7eb980f2bf5d, type: 3}
+  wrongPlacementSound: {fileID: 8300000, guid: 84342cd4734b8e946ae085c50863fa34, type: 3}
+  completionSound: {fileID: 8300000, guid: 87fd1edd68803b24fa1bfd85469947ef, type: 3}
