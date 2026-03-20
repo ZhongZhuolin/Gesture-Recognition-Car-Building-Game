@@ -218,22 +218,6 @@ The architecture supports Lab Streaming Layer for synchronized neurophysiologica
 
 ---
 
-## 📋 Requirements
-
-### Minimum
-- Intel i5 / AMD Ryzen 5
-- 8GB RAM
-- Integrated graphics
-- 720p webcam
-
-### Recommended
-- Intel i7 / AMD Ryzen 7
-- 16GB RAM
-- Dedicated GPU
-- 1080p webcam @ 60fps
-
----
-
 ## 🤝 Contributing
 
 1. Fork the repository
@@ -252,7 +236,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📬 Contact
 
-For research collaboration or technical support, please open an issue or contact the development team.
+lin.walterzhong@gmail.com
 
 ---
 
@@ -260,7 +244,7 @@ For research collaboration or technical support, please open an issue or contact
 
 - [MediaPipe](https://mediapipe.dev/) for hand tracking
 - [Unity](https://unity.com/) game engine
-- Research supported by [Your Institution]
+- Research supported by New Jersey Institute Of Technology Biomedical Department
 
 ---
 
